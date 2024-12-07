@@ -3,6 +3,8 @@
 Here is the Colab notebook I used to train my model: https://colab.research.google.com/drive/1NpXfALbXDKw6JA9bZhxt-I1bWvqvGeVN?usp=drive_link  
 It's also in this repo, called **finetune.ipynb**  
 Please note I used this tutorial for the basis for my code: [HuggingFace Tutorial](https://huggingface.co/blog/fine-tune-wav2vec2-english)  
+
+**vocab.json** - The vocab that I created for fine-tuning
   
 I didn't include this in my paper, but here is how my training went overtime, in terms of loss and eval WER at every 500 steps:  
 ![Training/Eval Loss and Eval WER at every 500 steps](./loss_wer_training.png)  
